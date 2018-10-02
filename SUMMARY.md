@@ -15,6 +15,7 @@
     * [Actions and filters](plugins/everyboard/actions-and-filters.md)
 * [Changelog](changelog.md)
 * [Architecture](architecture.md)
+* [Cache](cache.md)
 * [Imengine](imengine.md)
 * [Open Content](open-content/README.md)
   * [Configuration](open-content/configuration.md)
