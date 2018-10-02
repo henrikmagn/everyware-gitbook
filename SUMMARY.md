@@ -1,7 +1,8 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Everyware](everyware.md)
+* [Everyware](everyware/README.md)
+  * [Changelog](everyware/changelog.md)
 * [Architecture](architecture.md)
 * [Open Content](open-content/README.md)
   * [Configuration](open-content/configuration.md)
