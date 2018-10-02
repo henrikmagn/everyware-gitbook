@@ -10,4 +10,6 @@
   * [Configuration](open-content/configuration.md)
 * [Development environment](development-environment.md)
 * [Imengine](imengine.md)
+* [Onboarding](onboarding/README.md)
+  * [Tasks](onboarding/tasks.md)
 
