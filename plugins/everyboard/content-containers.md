@@ -1,6 +1,6 @@
 # Content containers
 
-Content Containers is a more technical way of displaying articles on your pages through boards, it has to be supported by the code before it is usable. When the code supports it, the page will fetch an array of articles, often for a specific category. This array will be the source of the Content Containers when the board is rendered.
+Content Containers is a more technical way of displaying articles on your pages through boards, it has to be supported by code \(a filter that has to be used\). When the code supports it, the page will fetch an array of articles, often for a specific category. This array will be the source of the Content Containers when the board is rendered.
 
 When placing the items in the board the user will be able to configure it to display a subset of the articles in a given position in the board.
 
