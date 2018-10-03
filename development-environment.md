@@ -1,25 +1,17 @@
 # Development environment
 
-## Getting Super Powers
+## Requirements
 
+Following apps/programs are required to work with a Everyware-site
 
+* Docker
+* Git
+* Composer 
+* Terminal-client
 
-Becoming a super hero is a fairly straight forward process:
+### Project specific requirements
 
-```
-$ give me super-powers
-```
-
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
-
-Once you're strong enough, save the world:
-
-```
-// Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
+Some projects have other requirement upon the standard. These should be specified in the project **README.md** file.
 
 
 
