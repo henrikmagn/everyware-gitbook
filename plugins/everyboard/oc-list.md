@@ -16,3 +16,5 @@ When adding a OC List item to an Everyboard you can configure list to use, artic
 | List start | Set a starting position for this item, this is the position where the first article in the item will be fetched from the list. |
 | List limit | Set how many articles you want this item to display. |
 
+
+
