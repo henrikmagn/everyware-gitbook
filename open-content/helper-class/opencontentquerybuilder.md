@@ -24,123 +24,160 @@ $query = OpenContentQueryBuilder::where('contenttype', 'Article')
 
 ### createProperty
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $name, string $value \)  
+**Description:** Create a Solr-property string.
+
+Example:
+
+```php
+$property = OpenContentQueryBuilder::createProperty('contenttype', 'Article');
+
+echo $property; // contenttype:Article
+```
 
 ### createOcDate
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $date = ' ' \)  
+**Description:** Create a date readable by OpenContent.
+
+Example:
+
+```php
+$date = OpenContentQueryBuilder::createOcDate('2018/10/03 08:15PM');
+
+echo $date; // 2018-10-03T18:15:00Z
+```
 
 ### dateSpanSearch
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $property, string $from = ' ', string $to = ' ' \)  
+**Description:** Create a Solr-query block indicating a date-span.
+
+Example:
+
+```php
+$to   = EwcDate::create(2018, 10, 24);
+$from = $to->copy()->subDays(21)->startOfDay();
+
+$dateSpan = OpenContentQueryBuilder::dateSpanSearch('Pubdate', $from->toOcString(), $to->toOcString());
+
+echo $dateSpan; // Pubdate:[2018-10-02T22:00:00Z TO 2018-10-24T14:58:48Z]
+```
 
 ### propertySearch
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $property, string\|array $values, string $glue = 'OR' \)  
+**Description:** Creates a Solr-query of one or more properties with the option to change the separator
+
+```php
+$query = OpenContentQueryBuilder::propertySearch('contenttype', ['Article', 'Concept']);
+
+echo $query; // (contenttype:Article OR contenttype:Concept)
+```
 
 ### where
 
-**Parameters:**  
-**Description:** 
+_alias for propertySearch_
+
+**Parameters:** \( string $property, string\|array $values, string $glue = 'OR' \)  
+**Description:** Start a query by property search.
 
 ### query
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $query \)  
+**Description:** Start a query. Can be initialed with Solr-properties or fully Solr query.
 
 ### text
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $text \)  
+**Description:** Start a query by adding text
 
 ## Chainable functions
 
 ### append
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $query \) ****  
+**Description:** Append string to query
 
 ### buildQueryString
 
-**Parameters:**  
-**Description:** 
+**Parameters:** No parameters  
+**Description:** Build and retrieve the finished query string
 
 ### andIf
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $query \)  
+**Description:** Append _and_ text query
 
 ### andIfProperty
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $property, string\|array $values, string $glue = 'OR' \)  
+**Description:** Append _and_ statement to query for property. 
 
 ### andIfNot
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $query \)  
+**Description:** Append _and not_ text query
 
 ### andIfNotProperty
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $property, string\|array $values, string $glue = 'OR' \)  
+**Description:** Append _and not_ statement to query for property. 
 
 ### orIf
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $query \) ****  
+**Description:** Append _or_ text query
 
 ### orIfProperty
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $property, string\|array $values, string $glue = 'OR' \)  
+**Description:** Append _or_ statement to query for property.
 
 ### orIfNot
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $query \)  
+**Description:** Append _or not_ text query
 
 ### orIfNotProperty
 
-**Parameters:**  
-**Description:** 
-
-### isEmpty
-
-**Parameters:**  
-**Description:** 
-
-### getQuery
-
-**Parameters:**  
-**Description:** 
-
-### getText
-
-**Parameters:**  
-**Description:** 
-
-### getSanitizedText
-
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $property, string\|array $values, string $glue = 'OR' \)  
+**Description:** Append _or not_ statement to query for property.
 
 ### prepend
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $query \)  
+**Description:** Prepend text query to the query
 
 ### setText
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $query \)  
+**Description:** Setter for text search
 
 ### setQuery
 
-**Parameters:**  
-**Description:** 
+**Parameters:** \( string $query \)  
+**Description:** Setter for query
+
+## Functions
+
+### isEmpty
+
+**Parameters:** No parameters  
+**Description:** Helper function to determine if the builder will generate an empty string
+
+### getQuery
+
+**Parameters:** No parameters  
+**Description:** Getter for raw query string
+
+### getText
+
+**Parameters:** No parameters  
+**Description:** Getter for raw text search
+
+### getSanitizedText
+
+**Parameters:** No parameters  
+**Description:** Retrieve a sanitize version of the text where we escape characters that might make a query
 
