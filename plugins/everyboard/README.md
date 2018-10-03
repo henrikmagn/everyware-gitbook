@@ -6,5 +6,5 @@ description: >-
 
 # Everyboard
 
-
+Everyboard will create a custom post type called "Board", these posts will be saved in the Wordpress database and save a JSON-structure that specifies the content of the board and it's structure.
 
