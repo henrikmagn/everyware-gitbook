@@ -26,6 +26,6 @@
 * [Onboarding](onboarding/README.md)
   * [Task 1 Configuration](onboarding/tasks.md)
   * [Task 2 Front page](onboarding/task-2-front-page.md)
-  * [Task 3 Content](onboarding/task-3-content.md)
-  * [Task 4](onboarding/task-4.md)
+  * [Task 3 Content presentation](onboarding/task-3-content.md)
+  * [Task 4 OC lists](onboarding/task-4.md)
 
