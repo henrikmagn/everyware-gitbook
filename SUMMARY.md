@@ -13,6 +13,7 @@
     * [OC List](plugins/everyboard/oc-list.md)
     * [Content containers](plugins/everyboard/content-containers.md)
     * [Actions and filters](plugins/everyboard/actions-and-filters.md)
+    * [Teaser templates](plugins/everyboard/teaser-templates.md)
     * [Changelog](plugins/everyboard/changelog.md)
 * [Architecture](architecture.md)
 * [Cache](cache.md)
