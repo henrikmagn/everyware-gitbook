@@ -10,7 +10,7 @@ Everyware also utilize Imengine which has it's own environment and is not includ
 
 ### Environment diagram
 
-![An example of Everyware environment in AWS.](.gitbook/assets/everyware-example.png)
+![](.gitbook/assets/everyware-example2.png)
 
 #### Route 53
 
@@ -43,4 +43,8 @@ The Wordpress database instance.
 #### Open Content
 
 The Open Content that Everyware connects to, this is where we fetch articles, concepts, images and more.
+
+#### OC Notifier
+
+The Open Content Notifier will post events to the Everyware servers, these events are used to update the object cache and more.
 
