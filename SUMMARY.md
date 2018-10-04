@@ -17,6 +17,7 @@
     * [Changelog](plugins/everyboard/changelog.md)
 * [Architecture](architecture.md)
 * [Cache](cache.md)
+* [Deployment](deployment.md)
 * [Imengine](imengine/README.md)
   * [Helper class](imengine/helper-class.md)
 * [Open Content](open-content/README.md)
