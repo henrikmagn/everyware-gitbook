@@ -21,7 +21,6 @@
 * [Imengine](imengine/README.md)
   * [Helper class](imengine/helper-class.md)
 * [Open Content](open-content/README.md)
-  * [Configuration](open-content/configuration.md)
   * [Helper classes](open-content/helper-class/README.md)
     * [OpenContent](open-content/helper-class/opencontent.md)
     * [OpenContentQueryBuilder](open-content/helper-class/opencontentquerybuilder.md)
