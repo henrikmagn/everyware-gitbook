@@ -25,6 +25,7 @@
     * [OpenContent](open-content/helper-class/opencontent.md)
     * [OpenContentQueryBuilder](open-content/helper-class/opencontentquerybuilder.md)
 * [Twig](twig.md)
+* [EwTools](ewtools.md)
 * [Development environment](development-environment.md)
 * [Onboarding](onboarding/README.md)
   * [Task 1 Configuration](onboarding/tasks.md)

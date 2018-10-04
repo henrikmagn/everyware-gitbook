@@ -77,7 +77,7 @@ echo $query; // (contenttype:Article OR contenttype:Concept)
 
 ### where
 
-_alias for propertySearch_
+_alias for_ [_propertySearch_](opencontentquerybuilder.md#propertysearch)\_\_
 
 **Parameters:** \( string $property, string\|array $values, string $glue = 'OR' \)  
 **Description:** Start a query by property search.
