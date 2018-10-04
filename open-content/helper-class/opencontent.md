@@ -6,7 +6,7 @@ description: Documentation of helper class OpenContent
 
 ## Standard usage
 
-Helps you write Open Content queries.
+Helps you with useful functionality of OpenContent
 
 **Name of class:** OpenContent
 
