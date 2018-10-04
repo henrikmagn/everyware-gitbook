@@ -12,7 +12,7 @@ Helps you write Open Content queries.
 
 The class is used as a static instance.
 
-Example code:
+### Example
 
 ```php
 $query = OpenContentQueryBuilder::where('contenttype', 'Article')

@@ -1,3 +1,7 @@
+---
+description: Documentation of helper class OpenContent
+---
+
 # OpenContent
 
 ## Standard usage
