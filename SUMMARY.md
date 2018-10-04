@@ -27,7 +27,6 @@
 * [Twig](twig/README.md)
   * [Helper classes](twig/helper-classes/README.md)
     * [View](twig/helper-classes/view.md)
-    * [ViewSetup](twig/helper-classes/viewsetup.md)
 * [EwTools](ewtools.md)
 * [Development environment](development-environment.md)
 * [Onboarding](onboarding/README.md)

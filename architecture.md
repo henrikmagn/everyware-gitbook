@@ -10,7 +10,7 @@ Everyware also utilize Imengine which has it's own environment and is not includ
 
 ### Environment diagram
 
-![](.gitbook/assets/everyware-example2.png)
+![](.gitbook/assets/everyware-example3.png)
 
 #### Route 53
 

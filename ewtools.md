@@ -142,8 +142,6 @@ We also have support and a skeleton for creating MetaBoxes on pages.
 
 ### [View](twig/helper-classes/view.md)
 
-### [ViewSetup](twig/helper-classes/viewsetup.md)
-
 ## Widgets
 
 ### ArticleList
