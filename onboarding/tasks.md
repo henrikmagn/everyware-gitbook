@@ -4,5 +4,13 @@ description: Setup a correct configuration against Open Content
 
 # Task 1 Configuration
 
-This task will prepare your Everyware get a correct connection against Open Content. 
+Activate necessary plugins for the site:
+
+* Everyware,
+* Everyboard
+* Open Content
+
+Activate correct theme.
+
+Now it time to configure the connection to Open Content. 
 
