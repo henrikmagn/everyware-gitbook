@@ -6,9 +6,9 @@ description: Setup a correct configuration against Open Content
 
 Activate necessary plugins for the site:
 
-* Everyware,
+* Open Content Everyware,
 * Everyboard
-* Open Content
+* Tryout Everyware
 
 Activate correct theme.
 
