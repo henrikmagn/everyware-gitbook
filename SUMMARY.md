@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Presentation](presentation/README.md)
+  * [Everyware](presentation/everyware.md)
+  * [Planning overview](presentation/planning-overview.md)
+  * [A typical project](presentation/a-typical-project.md)
 * [Plugins](plugins/README.md)
   * [Everyware](plugins/everyware/README.md)
     * [Setup](plugins/everyware/setup.md)
