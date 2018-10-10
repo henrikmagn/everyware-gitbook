@@ -63,5 +63,20 @@ ledge:config_set("cache_key_spec", { ngx.var.every_device, ngx.var.ew_auth_var, 
 {% endcode-tabs-item %}
 {% endcode-tabs %}
 
+When a request goes all the way to PHP we will be able to read a header value to get the authorization status. This means you can make decisions to show/hide or take any other actions depending on the status and it will only be applied to users with the same authorization status.
 
+{% code-tabs %}
+{% code-tabs-item title="auth.php" %}
+```php
+/**
+ * Check logged in user and that it have correct product
+ *
+ * @return bool
+ */
+public static function hasUserAccess() {
+  return isset($_SERVER['HTTP_X_EW_AUTH']) && $_SERVER['HTTP_X_EW_AUTH'] === 'true';
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
