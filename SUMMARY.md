@@ -21,6 +21,7 @@
     * [Changelog](plugins/everyboard/changelog.md)
 * [Architecture](architecture.md)
 * [Cache](cache.md)
+* [Authentication and paywalls](authentication-and-paywalls.md)
 * [Deployment](deployment.md)
 * [Imengine](imengine/README.md)
   * [Helper class](imengine/helper-class.md)
