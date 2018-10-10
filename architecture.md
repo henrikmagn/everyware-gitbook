@@ -26,7 +26,7 @@ Automatically distributes incoming traffic to the different EC2 instances.
 
 #### EC2 instances
 
-This is where the actual application lives, it runs nginx, Openresty and PHP-FPM. At a deployment these are the instances that will get the new application code.
+This is where the actual application runs. The Docker containers are separated and one runs Nginx extended with Lua \(OpenResty\) and another container with PHP-FPM.
 
 #### Elasticache \(redis\)
 
