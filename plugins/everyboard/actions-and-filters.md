@@ -1,5 +1,11 @@
 # Actions and filters
 
+Wordpress documentation on actions and filters.
+
+{% embed url="https://codex.wordpress.org/Plugin\_API/Action\_Reference" %}
+
+{% embed url="https://codex.wordpress.org/Plugin\_API/Filter\_Reference" %}
+
 ## Actions {#actions}
 
 ### **board\_changed\_hook**

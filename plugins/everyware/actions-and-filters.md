@@ -1,5 +1,11 @@
 # Actions and filters
 
+Wordpress documentation on actions and filters.
+
+{% embed url="https://codex.wordpress.org/Plugin\_API/Action\_Reference" %}
+
+{% embed url="https://codex.wordpress.org/Plugin\_API/Filter\_Reference" %}
+
 ## Actions
 
 ### **pre\_oc\_push\_{$contenttype}\_update**
@@ -80,7 +86,7 @@
 
 **Parameters:** $properties = \[\],  ****the array is populated with the default properties for the contenttype.
 
-**Description:** This filter is applied when a notification event is received from Open Content Notifier, it will determine if we need to fetch more data from Open Content for the object that aws notified. For example this is where you would add hierarchical properties.
+**Description:** This filter is applied when a notification event is received from Open Content Notifier, it will determine if we need to fetch more data from Open Content for the object that was notified. For example this is where you would add hierarchical properties.
 
 ### **ew\_notifier\_update\_{$contenttype}\_filter**
 

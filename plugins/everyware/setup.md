@@ -1,6 +1,6 @@
 # Setup
 
-The first thing to do after activating Everyware is probably to setup the connection to Open Content. After activation a menu item should appear in the admin interface named "Open Content". By clicking on it you get to the main settings for the Everyware plugin.
+The first thing to do after activating Everyware is probably to setup the connection to Open Content. After activation a menu item should appear in the Wordpress admin interface named "Open Content". By clicking on it you get to the main settings for the Everyware plugin.
 
 #### Open Content Settings
 
@@ -33,7 +33,7 @@ Allows for mapping of properties, if there are exceptions in property names from
 | Debug mode | Boolean for if debug mode should be active or not. |
 | Everystats | Legacy setting, simple stats for article views. |
 | Environment query | Add a query that will be appended to all queries that are sent to Open Content. |
-| Category property | Select a property that will be used to set the value of the custom post type category in Wordpress. |
-| Hierarchical properties | If articles should use parent and child categories or not. |
+| Category property | Select a property that will be used to set the value of the category for the article object in Wordpress. |
+| Hierarchical properties | If articles should use parent and child categories or not, would impact article urls if category is part of the url \(https://www.example.com/sport/football/article-headline\). |
 | Hide future articles | Whether or not articles with pubdate in the future should be hidden. |
 
