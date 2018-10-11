@@ -9,3 +9,7 @@ Now when we have setup the front page it would be nice to get some articles to p
 1. Create likely structure in your board and add articles to it. 
 2. Experiment with different teaser templates
 
+{% hint style="info" %}
+Experiment with different device presentation.
+{% endhint %}
+

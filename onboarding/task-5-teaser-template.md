@@ -2,7 +2,7 @@
 description: Add new teaser template support
 ---
 
-# Task 5 Teaser template
+# Task 6 Teaser template
 
 Add a new teaser template and try to reproduce following style to get to know CSS flow, Twig and PHP.
 

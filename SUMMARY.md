@@ -40,8 +40,8 @@
   * [Task 2 Front page](onboarding/task-2-front-page.md)
   * [Task 3 Content presentation](onboarding/task-3-content.md)
   * [Task 4 OC lists](onboarding/task-4.md)
-  * [Task 5 Teaser template](onboarding/task-5-teaser-template.md)
-  * [Task 6 Widget](onboarding/task-6-widget.md)
+  * [Task 5 Content containers](onboarding/task-5-content-containers.md)
+  * [Task 6 Teaser template](onboarding/task-5-teaser-template.md)
   * [Task 7 Single article](onboarding/task-7-single-article.md)
-  * [Task 8 Add support for content part](onboarding/task-8-add-support-for-content-part.md)
+  * [Task 8 Widget](onboarding/task-6-widget.md)
 

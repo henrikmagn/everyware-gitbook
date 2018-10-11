@@ -7,3 +7,5 @@ description: This task will prepare Everyware for OC lists and presentation
 1. Config your site to support OC lists by setting up correct configuration
 2. Present articles through OC List-widget on front page
 
+Experiment and see OC List in Dashboard [https://stage.dashboard.infomaker.io/](https://stage.dashboard.infomaker.io/)
+
