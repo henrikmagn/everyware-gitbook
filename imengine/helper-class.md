@@ -47,7 +47,7 @@ We have to specified src of the image so we have to add **fromUuid** or **fromSr
 ### hardcrop
 
 **Parameters:** \( int $width, int $height \)   
-**Description:** Crop image into defined size from center position.
+**Description:** Crop image into defined size from top left.
 
 ### npCrop
 
@@ -67,17 +67,17 @@ We have to specified src of the image so we have to add **fromUuid** or **fromSr
 ### ratio
 
 **Parameters:** \( int ****$width,  string $ratio = '3:2' \)   
-**Description:** Crop image into given ratio.
+**Description:** Crop image into given ratio using "hardcrop".
 
 ### autoCrop
 
 **Parameters:** \( int $original\_width, int $original\_height, int $width, string $ratio = '3:2' \)  
-**Description:** Crop image into given ratio.
+**Description:** Crop image into given ratio from center.
 
 ### square
 
 Parameters: \( int $size \)  
-Description: Crop image into a square.
+Description: Crop image into a square using "hardcrop".
 
 ### raw
 
