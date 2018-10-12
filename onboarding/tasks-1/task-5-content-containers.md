@@ -1,8 +1,8 @@
 ---
-description: Get to know widget Content containers
+description: Get to know the Content container widget.
 ---
 
-# Task 5 Content containers
+# \#5 - Content containers
 
 Setup a dynamic category board that will display articles through the static widget Content containers.
 
