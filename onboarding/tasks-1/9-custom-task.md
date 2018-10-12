@@ -1,5 +1,5 @@
 ---
-description: What is a typical thing a customer would want?
+description: What is a typical feature a customer would want?
 ---
 
 # \#9 - Custom task

@@ -47,8 +47,6 @@ Git is used, during development we typically use a dev branch for most of the de
 
 Later in project and after go live of the public sites the master branch is the production environment, we deploy via tags on the master branch. Feature branches is used for all changes at this stage, branch from master and merge in to the test or stage branch to test in AWS environments.
 
-
-
 ### Environments and deploys
 
 Every developer has their own development environment, in AWS we have a test, stage and production environment. Not all customers feel the need for a test environment and just have stage and production. 
