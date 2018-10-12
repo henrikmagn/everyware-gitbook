@@ -15,7 +15,7 @@ Let's check single article presentation out and how it's works.
 
 ### Sidebar
 
-* Add a sidebar to the page and present some widget init
+* Add a sidebar to the page and present some widget in it
 
 ### Presentation
 
