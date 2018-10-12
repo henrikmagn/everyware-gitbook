@@ -69,7 +69,7 @@ When a request goes all the way to PHP we will be able to read a header value to
 {% code-tabs-item title="auth.php" %}
 ```php
 /**
- * Check logged in user and that it have correct product
+ * Check if user has access to content.
  *
  * @return bool
  */
