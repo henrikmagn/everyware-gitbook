@@ -45,4 +45,6 @@
     * [\#6 - Teaser template](onboarding/tasks-1/task-5-teaser-template.md)
     * [\#7 - Single article](onboarding/tasks-1/task-7-single-article.md)
     * [\#8 - Widget](onboarding/tasks-1/task-6-widget.md)
+    * [\#9 - Custom task](onboarding/tasks-1/9-custom-task.md)
+* [Base theme / framework](base-theme-framework.md)
 
