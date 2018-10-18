@@ -20,3 +20,7 @@ Create a List Widget that renders articles from Open Content. The widget should 
 * List of articles with selected teaser template.
 * Load more button with Ajax functionality to fetch articles and render them.
 
+{% hint style="info" %}
+Wordpress documentation on AJAX functionality: [https://codex.wordpress.org/AJAX\_in\_Plugins](https://codex.wordpress.org/AJAX_in_Plugins)
+{% endhint %}
+
