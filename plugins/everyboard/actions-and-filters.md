@@ -6,7 +6,7 @@ Wordpress documentation on actions and filters.
 
 {% embed url="https://codex.wordpress.org/Plugin\_API/Filter\_Reference" %}
 
-## Actions {#actions}
+## Actions <a id="actions"></a>
 
 ### **board\_changed\_hook**
 
@@ -14,7 +14,7 @@ Wordpress documentation on actions and filters.
 
 **Description:** This action is triggered when a board has been updated or changed in any way.
 
-## Filters {#filters}
+## Filters <a id="filters"></a>
 
 ### **ew\_content\_container\_fill**
 
